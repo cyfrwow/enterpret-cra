@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    .item {
+        display: inline-flex;
+        white-space: nowrap;
+        flex: 1;
+        min-width: calc(100% / 7);
+        padding: 20px 10px;
+        font-size: 14px;
+
+        align-items: center;
+        word-break: break-word;
+        &.hide {
+            display: none;
+        }
+        &:nth-child(n + 3) {
+            justify-content: flex-end;
+        }
+    }
+}

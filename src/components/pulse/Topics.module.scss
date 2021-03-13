@@ -1,0 +1,11 @@
+.topicsList {
+    display: none;
+    width: 100%;
+    .item {
+        display: inline-flex;
+        white-space: nowrap;
+        flex: 1 1;
+        padding: 10px;
+        font-size: 12px;
+    }
+}
